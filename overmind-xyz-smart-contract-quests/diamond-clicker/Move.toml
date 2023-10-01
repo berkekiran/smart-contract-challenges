@@ -1,0 +1,11 @@
+[package]
+name = 'diamond_clicker'
+version = '1.0.0'
+upgrade_policy = "compatible"
+
+[addresses]
+diamond_clicker = '0x1234'
+
+[dependencies]
+MoveStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/move-stdlib", rev = "main" }
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }
